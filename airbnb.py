@@ -170,10 +170,10 @@ def main():
                     "in order to enhance our services, we should focus on offering an "
                     "increased number of listings of this particular type.\n\n\n")
             elif(x=='0'):
-                print('Thank you for your time :).')
+                print('\n\n\nThank you for your time :).\n\n\n')
                 break
             else:
-                print('Please enter the available buttons only [1-2-3-4-0]')  
+                print('\n\n\nPlease enter the available buttons only [1-2-3-4-0]\n\n\n')  
         
     except Exception as e:
         print(f"An error occurred: {str(e)}")
